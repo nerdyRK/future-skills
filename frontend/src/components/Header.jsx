@@ -4,7 +4,7 @@ import axios from "axios";
 
 function Header({ setCards }) {
   const [isModalVisible, setIsModalVisible] = useState(false);
-  console.log(typeof setCards);
+  // console.log(typeof setCards);
 
   const openModal = () => {
     setIsModalVisible(true);
