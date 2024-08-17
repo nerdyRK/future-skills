@@ -4,9 +4,6 @@ For running the project
 You can visit the Live site Here:
 [Live Demo](https://future-skills-render.onrender.com/)
 
-To see the code click here:
-[Github Link](https://github.com/nerdyRK/future-skills)
-
 Or to run it locally follow these steps:
 
 The project has two folders Frontend and Backend.
