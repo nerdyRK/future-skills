@@ -33,7 +33,7 @@ function Header({ setCards }) {
   return (
     <header className="bg-black sticky top-0 text-white py-4 flex justify-between items-center px-8">
       <div className="text-lg font-bold">Abstract | Help Center</div>
-      <button onClick={openModal} className="bg-gray-800 px-4 py-2 rounded">
+      <button onClick={openModal} className="bg-blue-500 px-4 py-2 rounded">
         Add a Card
       </button>
       <Modal

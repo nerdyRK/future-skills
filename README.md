@@ -1,27 +1,27 @@
-# Help Center API Assignment
+# Help Center API
 
-## Instructions
+For running the project
+You can visit the Live site Here:
+[Live Demo](https://future-skills-render.onrender.com/)
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
-   ```
+To see the code click here:
+[Github Link](https://github.com/nerdyRK/future-skills)
 
-2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
+Or to run it locally follow these steps:
 
-3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
+The project has two folders Frontend and Backend.
 
-4. **Push Your Work:**
-   - Push both the frontend and backend apps to the same repository.
-   - Make sure the repository is public.
-
-5. **Submit Your Work:**
-   - Paste the GitHub repository link in the Google form you received after pushing your code.
-
----
-
+- download zip file or clone the repo
+- navigate to backend and run "npm install" command same for the frontend
+- then you need to make a .env file in backend folder root location
+- there add a variable named MONGO_URL
+- You need to get this URL from mongodb Atlas by making account on it for free if you don't have already.
+- Note that while making a cluster on atlas you will see a username and password. You will need the password so either copy it or change it to something you can remember
+- Once you get URL and add in env file make 2 terminals in vs code
+- go to frontend and backend folder in the terminals and run "npm run dev" in both
+- on backend you will get a message of mongodb connected then you can proceed
+- open frontend app running
+- No card will be there at first
+- Click on add card button and fill a title and description and submit
+- card will be added and by clicking a card it will go to full card dedicated
+- You can also search the cards by title
