@@ -3,6 +3,7 @@
 For running the project
 You can visit the Live site Here:
 [Live Demo](https://future-skills-render.onrender.com/)
+(It may take 15-20 second to load first time)
 
 Or to run it locally follow these steps:
 
